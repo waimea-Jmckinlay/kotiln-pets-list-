@@ -75,7 +75,6 @@ fun getString(prompt: String): String {
         userinput = readln()
         if (userinput.isNotBlank()) break
 
-
-        return userinput
     }
+    return userinput
 }
